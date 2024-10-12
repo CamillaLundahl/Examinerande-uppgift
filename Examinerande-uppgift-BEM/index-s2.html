@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Maven Pro' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="style-s2.css">
+    <title>Planned Planthood</title>
+</head>
+<body>
+
+    <!-- placering till toppen av sidan -->
+    <div id="top"></div>
+
+    <nav class="main-nav">
+        <ul class="main-nav__list">
+            <li class="main-nav__item">
+                <a href="/index.html" class="main-nav__link">PLANNER</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="" class="main-nav__link">HISTORIK</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="" class="main-nav__link">TIPS</a>
+            </li>
+            <li class="main-nav__item">
+                <a href="" class="main-nav__link">LOGGA UT</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <img src="/Bilder/hand2.jpg" alt="bild på en till hand" class="header__background-image">
+        <img src="Bilder/Logo.png" alt="logo" class="header__logo">
+        <a href="index.html" class="header__menu-link">
+            <img src="Bilder/burgir.svg" alt="menyknapp" class="header__menu-icon">
+        </a>
+        <h1 class="header__title">Mina sidor</h1>
+    </header>
+
+    <main>
+
+        <article class="planter">  
+            <article class="planter__container">
+            <h2 class="planter__title">Lägg till ny plantering:</h2>
+              <article class="planter__input-group">
+                <label class="planter__label">planta:</label>
+                <input class="planter__input" type="text">
+              </article>
+              <article class="planter__input-group">
+                <label class="planter__label">datum:</label>
+                <input class="planter__input" type="text">
+              </article>
+            </article>
+            <button class="planter__button">LÄGG TILL</button>
+          </article>
+
+        <section class="planting-section">
+            <h2 class="planting-section__title">Dina planerade planteringar:</h2>
+            <section class="planting-section__cards">
+                <section class="plant-card">
+                    <img src="Bilder/gurka.avif" alt="gurka" class="plant-card__image plant-card__image--main">
+                    <img src="Bilder/plant.png" alt="plant ikon" class="plant-card__image plant-card__image--icon">
+                    <section class="plant-card__info">
+                        <h2 class="plant-card__name">Gurka</h2>
+                        <h3 class="plant-card__date">15 april 2024</h3>
+                        <p class="plant-card__location">Rico Coolio</p>
+                        <button class="plant-card__button plant-card__button--delete">ta bort</button>
+                        <figure class="plant-card__bin">
+                            <img src="Bilder/bin.svg" alt="bin" class="plant-card__bin-icon">
+                        </figure>
+                    </section>
+                </section>
+            </section>
+        </section>
+        
+        <aside class="planted-section">
+            <h2 class="planted-section__title">Dina planterade planteringar:</h2>
+            <aside class="planted-section__cards">
+                <aside class="plant-card">
+                    <img src="Bilder/gurka.avif" alt="gurka" class="plant-card__image plant-card__image--main">
+                    <img src="Bilder/plant.png" alt="plant ikon" class="plant-card__image plant-card__image--icon">
+                    <aside class="plant-card__info">
+                        <h2 class="plant-card__name">Gurka</h2>
+                        <h3 class="plant-card__date">15 april 2024</h3>
+                        <p class="plant-card__location">Rico Coolio</p>
+                        <button class="plant-card__button plant-card__button--delete">ta bort</button>
+                        <figure class="plant-card__bin">
+                            <img src="Bilder/bin.svg" alt="bin" class="plant-card__bin-icon">
+                        </figure>
+                    </aside>
+                </aside>
+                <aside class="plant-card">
+                    <img src="Bilder/gurka.avif" alt="gurka" class="plant-card__image plant-card__image--main">
+                    <img src="Bilder/plant.png" alt="plant ikon" class="plant-card__image plant-card__image--icon">
+                    <aside class="plant-card__info">
+                        <h2 class="plant-card__name">Gurka</h2>
+                        <h3 class="plant-card__date">15 april 2024</h3>
+                        <p class="plant-card__location">Rico Coolio</p>
+                        <button class="plant-card__button plant-card__button--delete">ta bort</button>
+                        <figure class="plant-card__bin">
+                            <img src="Bilder/bin.svg" alt="bin" class="plant-card__bin-icon">
+                        </figure>
+                    </aside>
+                </aside>
+            </aside>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <footer class="footer__container">
+            <footer class="footer__image-wrapper">
+                <img src="Bilder/sida2-footer-1.avif" alt="Paprika" class="footer__image footer__image--paprika">
+            </footer>
+            <footer class="footer__image-wrapper">
+                <img src="Bilder/vattenkanna.avif" alt="watering-can" class="footer__image footer__image--watering-can">
+            </footer>
+            <footer class="footer__image-wrapper">
+                <img src="Bilder/grönsaker.avif" alt="vegetables" class="footer__image footer__image--vegetables">
+            </footer>
+            <footer class="footer__image-wrapper">
+                <img src="Bilder/tjej.avif" alt="girl" class="footer__image footer__image--girl">
+            </footer>
+        </footer>
+    </footer>
+
+    <a href="#top" class="to-top">Till toppen av sidan</a>
+    
+</body>
+</html>
